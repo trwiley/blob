@@ -2,8 +2,8 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 736,
+        "worldScrollX": 685,
+        "worldScrollY": 1292,
         "zoom": 200,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
@@ -991,8 +991,521 @@
                             "command": "EVENT_END"
                         }
                     ]
+                },
+                {
+                    "trigger": "walk",
+                    "id": "4bb2421e-80fb-4ebf-b602-70e475c0805a",
+                    "x": 14,
+                    "y": 22,
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "id": "6e95af84-c54c-484b-bb88-2cadce6b793e",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "43607ab4-2c08-42f3-9fb8-7cc5718456d6",
+                                "x": 9,
+                                "y": 0,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "c12c998a-8d64-4872-8327-cb837826f0ff",
+                            "command": "EVENT_END"
+                        }
+                    ]
                 }
             ]
+        },
+        {
+            "name": "Beginning of the Forest",
+            "backgroundId": "75ec1a7b-2935-4d62-8f53-8ff7c5699eaa",
+            "width": 18,
+            "height": 28,
+            "collisions": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                48,
+                6,
+                192,
+                24,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                24,
+                0,
+                99,
+                0,
+                12,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6,
+                0,
+                24,
+                48,
+                0,
+                198,
+                48,
+                216,
+                192,
+                0,
+                3,
+                24,
+                0,
+                102,
+                51,
+                120,
+                204,
+                128,
+                241,
+                15,
+                255,
+                63,
+                252,
+                63,
+                0,
+                252,
+                3,
+                240,
+                255,
+                63,
+                192,
+                255
+            ],
+            "id": "43607ab4-2c08-42f3-9fb8-7cc5718456d6",
+            "x": 455.5,
+            "y": 661,
+            "actors": [],
+            "triggers": [
+                {
+                    "trigger": "walk",
+                    "id": "85bed2fb-1495-4e16-9d28-c697db190a7e",
+                    "x": 17,
+                    "y": 24,
+                    "width": 1,
+                    "height": 2,
+                    "script": [
+                        {
+                            "id": "bcfc034a-7c97-46c5-b5a6-13b0e54a1d2c",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "2dbcab55-bab9-40e1-8f75-e2dc61eef4f9",
+                                "x": 0,
+                                "y": 6,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "86154bd2-c6d6-4bd1-8342-d5e2e393744b",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dark Forest",
+            "backgroundId": "11b76d26-9f9d-4318-9540-d11431e878fb",
+            "width": 28,
+            "height": 18,
+            "collisions": [
+                255,
+                240,
+                255,
+                255,
+                15,
+                255,
+                255,
+                255,
+                195,
+                255,
+                255,
+                63,
+                236,
+                255,
+                0,
+                0,
+                254,
+                15,
+                0,
+                0,
+                224,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                7,
+                192,
+                255,
+                127,
+                0,
+                255,
+                255,
+                7,
+                240,
+                255,
+                63,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                207,
+                255,
+                255,
+                255
+            ],
+            "id": "2dbcab55-bab9-40e1-8f75-e2dc61eef4f9",
+            "x": 617,
+            "y": 492,
+            "actors": [],
+            "triggers": [
+                {
+                    "trigger": "walk",
+                    "id": "7d36ba43-6bde-488b-bfea-a39cba4eed18",
+                    "x": 27,
+                    "y": 6,
+                    "width": 1,
+                    "height": 2,
+                    "script": [
+                        {
+                            "id": "37378c93-d603-43a1-8623-ec67d0d0a44f",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "b2175368-e859-4f38-a3b4-0a52ba84f644",
+                                "x": 0,
+                                "y": 6,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "67e507c4-db04-47ff-9ab3-e97ff9df8470",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Forest's End",
+            "backgroundId": "73e25238-2b6c-4de1-9a9d-cc51d7b7404f",
+            "width": 30,
+            "height": 18,
+            "collisions": [
+                63,
+                96,
+                224,
+                192,
+                255,
+                24,
+                56,
+                247,
+                63,
+                48,
+                206,
+                253,
+                109,
+                108,
+                113,
+                127,
+                27,
+                24,
+                220,
+                1,
+                0,
+                6,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                192,
+                31,
+                0,
+                0,
+                240,
+                7,
+                0,
+                24,
+                28,
+                48,
+                0,
+                6,
+                63,
+                140,
+                1,
+                192,
+                63,
+                96,
+                0,
+                240,
+                15,
+                0,
+                0,
+                252,
+                193,
+                12,
+                0,
+                127,
+                48,
+                3,
+                192,
+                1,
+                0,
+                0,
+                0
+            ],
+            "id": "b2175368-e859-4f38-a3b4-0a52ba84f644",
+            "x": 884,
+            "y": 494,
+            "actors": [],
+            "triggers": [
+                {
+                    "trigger": "walk",
+                    "id": "7717d4c0-b2c0-4d7f-b5de-5c6dbd874644",
+                    "x": 26,
+                    "y": 17,
+                    "width": 3,
+                    "height": 1,
+                    "script": [
+                        {
+                            "id": "5be20925-d475-43ba-a47d-bd85b6d4799d",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "7b98d1a9-760f-4b98-b701-bdabb4f6ae52",
+                                "x": 8,
+                                "y": 0,
+                                "direction": "down",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "e73689d8-0471-4bbf-9670-d8424e100caa",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "In the Surreal",
+            "backgroundId": "0a0cf7dc-e05b-49b4-bf68-2498ac1cc655",
+            "width": 20,
+            "height": 32,
+            "collisions": [
+                128,
+                8,
+                0,
+                136,
+                0,
+                128,
+                8,
+                0,
+                136,
+                0,
+                128,
+                8,
+                0,
+                136,
+                60,
+                128,
+                56,
+                4,
+                8,
+                64,
+                188,
+                0,
+                36,
+                140,
+                67,
+                2,
+                200,
+                35,
+                128,
+                0,
+                194,
+                8,
+                192,
+                139,
+                0,
+                128,
+                8,
+                0,
+                136,
+                120,
+                128,
+                120,
+                8,
+                8,
+                128,
+                128,
+                0,
+                0,
+                136,
+                135,
+                254,
+                200,
+                47,
+                128,
+                0,
+                2,
+                8,
+                32,
+                143,
+                0,
+                161,
+                8,
+                16,
+                138,
+                0,
+                161,
+                8,
+                16,
+                138,
+                0,
+                158,
+                8,
+                0,
+                136,
+                0,
+                128,
+                8,
+                0,
+                140,
+                0
+            ],
+            "id": "7b98d1a9-760f-4b98-b701-bdabb4f6ae52",
+            "x": 887,
+            "y": 694,
+            "actors": [],
+            "triggers": [
+                {
+                    "trigger": "walk",
+                    "id": "41c5fafb-d7b3-466a-9111-0629b81e6031",
+                    "x": 8,
+                    "y": 31,
+                    "width": 3,
+                    "height": 1,
+                    "script": [
+                        {
+                            "id": "d60e2e84-ab49-4cbc-b59b-652a813e703f",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "6c6ffde2-f373-4f35-bb8e-dafe91bfe499",
+                                "x": 8,
+                                "y": 0,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "9031a7e9-fc91-42da-ac71-f3d2a32f7bab",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Finale",
+            "backgroundId": "9278b030-3408-4ec0-8730-e5f1158f9127",
+            "width": 20,
+            "height": 18,
+            "collisions": [
+                128,
+                8,
+                0,
+                136,
+                0,
+                128,
+                8,
+                0,
+                136,
+                0,
+                128,
+                8,
+                0,
+                136,
+                0,
+                128,
+                8,
+                0,
+                136,
+                0,
+                128,
+                8,
+                0,
+                136,
+                0,
+                128,
+                248,
+                0,
+                136,
+                16,
+                128,
+                0,
+                1,
+                8,
+                16,
+                128,
+                15,
+                1,
+                0,
+                31,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "id": "6c6ffde2-f373-4f35-bb8e-dafe91bfe499",
+            "x": 889,
+            "y": 985,
+            "actors": [],
+            "triggers": []
         }
     ],
     "_version": "1.2.0",
@@ -1061,7 +1574,57 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "cave.png",
-            "_v": 1591915921029
+            "_v": 1592779649661
+        },
+        {
+            "id": "73e25238-2b6c-4de1-9a9d-cc51d7b7404f",
+            "name": "cubes-1",
+            "width": 30,
+            "height": 18,
+            "imageWidth": 240,
+            "imageHeight": 144,
+            "filename": "cubes-1.png",
+            "_v": 1592779649661
+        },
+        {
+            "id": "0a0cf7dc-e05b-49b4-bf68-2498ac1cc655",
+            "name": "cubes2",
+            "width": 20,
+            "height": 32,
+            "imageWidth": 160,
+            "imageHeight": 256,
+            "filename": "cubes2.png",
+            "_v": 1592779649661
+        },
+        {
+            "id": "9278b030-3408-4ec0-8730-e5f1158f9127",
+            "name": "finale",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "finale.png",
+            "_v": 1592779649661
+        },
+        {
+            "id": "75ec1a7b-2935-4d62-8f53-8ff7c5699eaa",
+            "name": "forest-1",
+            "width": 18,
+            "height": 28,
+            "imageWidth": 144,
+            "imageHeight": 224,
+            "filename": "forest-1.png",
+            "_v": 1592779649661
+        },
+        {
+            "id": "11b76d26-9f9d-4318-9540-d11431e878fb",
+            "name": "forest-2",
+            "width": 28,
+            "height": 18,
+            "imageWidth": 224,
+            "imageHeight": 144,
+            "filename": "forest-2.png",
+            "_v": 1592779649661
         },
         {
             "id": "b340b9a2-2865-4e05-91c0-148846a693c8",
@@ -1071,7 +1634,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "house.png",
-            "_v": 1591915921029
+            "_v": 1592779649661
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -1081,7 +1644,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "logo.png",
-            "_v": 1591915921029
+            "_v": 1592779649661
         },
         {
             "id": "b49ea566-b022-478c-979d-ec3ee255fdc5",
@@ -1091,7 +1654,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "menu.png",
-            "_v": 1591915921029
+            "_v": 1592779649661
         },
         {
             "id": "1b7fa267-d716-40f0-b0d0-f4f966610e07",
@@ -1101,7 +1664,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "outside.png",
-            "_v": 1591915921029
+            "_v": 1592779649661
         },
         {
             "id": "3e1436f0-c2b7-447b-bbd3-55c4d92db4fd",
@@ -1111,7 +1674,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "room.png",
-            "_v": 1591915921029
+            "_v": 1592779649661
         },
         {
             "id": "40fda058-df90-4205-a239-fe77bce4fa79",
@@ -1121,7 +1684,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "stars.png",
-            "_v": 1591915921029
+            "_v": 1592779649661
         },
         {
             "id": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -1131,7 +1694,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "titlescreen.png",
-            "_v": 1591915921030
+            "_v": 1592779649662
         },
         {
             "id": "f3102db4-2273-411d-b33f-4d6f65959c60",
@@ -1141,7 +1704,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "underground.png",
-            "_v": 1591915921030
+            "_v": 1592779649662
         },
         {
             "id": "7ec941cc-617a-4035-bb9b-979f51f66eff",
@@ -1151,7 +1714,7 @@
             "imageWidth": 144,
             "imageHeight": 184,
             "filename": "yard.png",
-            "_v": 1591915921031
+            "_v": 1592779649662
         }
     ],
     "spriteSheets": [
@@ -1161,7 +1724,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "bed.png",
-            "_v": 1591915921029
+            "_v": 1592779649663
         },
         {
             "id": "c5126056-2bc8-436d-bcc1-077180dbe65c",
@@ -1169,7 +1732,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "blob.png",
-            "_v": 1591915921029
+            "_v": 1592779649663
         },
         {
             "id": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
@@ -1177,7 +1740,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "cat.png",
-            "_v": 1591915921029
+            "_v": 1592779649662
         },
         {
             "id": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
@@ -1185,7 +1748,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "checkbox.png",
-            "_v": 1591915921029
+            "_v": 1592779649662
         },
         {
             "id": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
@@ -1193,7 +1756,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "dog.png",
-            "_v": 1591915921031
+            "_v": 1592779649662
         },
         {
             "id": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
@@ -1201,7 +1764,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "duck.png",
-            "_v": 1591915921031
+            "_v": 1592779649662
         },
         {
             "id": "bdf5b787-afef-49ba-8dbd-4e06558319cf",
@@ -1209,7 +1772,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "duckblob.png",
-            "_v": 1591915921030
+            "_v": 1592779649662
         },
         {
             "id": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
@@ -1217,7 +1780,7 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "fire.png",
-            "_v": 1591915921029
+            "_v": 1592779649662
         },
         {
             "id": "127d28ef-c839-4cb9-9be6-eb471e80df53",
@@ -1225,7 +1788,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "fridge.png",
-            "_v": 1591915921029
+            "_v": 1592779649662
         },
         {
             "id": "9b424a5b-c241-4bcc-bc64-df15dd4ea4c6",
@@ -1233,7 +1796,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "friend.png",
-            "_v": 1591915921030
+            "_v": 1592779649662
         },
         {
             "id": "09ad70c6-3ce5-4b97-9e96-466221418a45",
@@ -1241,7 +1804,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "ice.png",
-            "_v": 1591915921030
+            "_v": 1592779649662
         },
         {
             "id": "dfa75239-299d-41fe-a6cd-9e9438da1938",
@@ -1249,7 +1812,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc001.png",
-            "_v": 1591915921030
+            "_v": 1592779649662
         },
         {
             "id": "40dcd163-9f72-4861-8131-b01eb9baa000",
@@ -1257,7 +1820,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc002.png",
-            "_v": 1591915921030
+            "_v": 1592779649663
         },
         {
             "id": "52ad34df-f245-4b2a-b94c-a82af1002871",
@@ -1265,7 +1828,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc003.png",
-            "_v": 1591915921030
+            "_v": 1592779649662
         },
         {
             "id": "b7998199-ee11-4592-9a01-58c8a95378e4",
@@ -1273,7 +1836,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "plant.png",
-            "_v": 1591915921030
+            "_v": 1592779649662
         },
         {
             "id": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
@@ -1281,7 +1844,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player.png",
-            "_v": 1591915921030
+            "_v": 1592779649663
         },
         {
             "id": "a0442b6a-634f-44da-9962-77938e3ed839",
@@ -1289,7 +1852,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "radio.png",
-            "_v": 1591915921030
+            "_v": 1592779649663
         },
         {
             "id": "03b975b4-8253-4fe1-b86d-81ab1fe3cca3",
@@ -1297,7 +1860,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "record.png",
-            "_v": 1591915921030
+            "_v": 1592779649663
         },
         {
             "id": "3939e8d2-3987-4a22-953e-f1d82134eccf",
@@ -1305,7 +1868,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "rock.png",
-            "_v": 1591915921030
+            "_v": 1592779649663
         },
         {
             "id": "e20ce140-53a5-4b1b-9964-138ba0c86925",
@@ -1313,7 +1876,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "sage.png",
-            "_v": 1591915921030
+            "_v": 1592779649663
         },
         {
             "id": "000a6dde-cb60-436e-b357-30a529daa139",
@@ -1321,7 +1884,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "savepoint.png",
-            "_v": 1591915921030
+            "_v": 1592779649663
         },
         {
             "id": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
@@ -1329,7 +1892,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "signpost.png",
-            "_v": 1591915921030
+            "_v": 1592779649663
         },
         {
             "id": "e9e61bf7-88fd-491d-ae01-4b7f76909108",
@@ -1337,7 +1900,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "torch.png",
-            "_v": 1591915921030
+            "_v": 1592779649663
         }
     ],
     "music": [
@@ -1345,7 +1908,7 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1591915921010
+            "_v": 1592779649638
         }
     ],
     "customEvents": []
