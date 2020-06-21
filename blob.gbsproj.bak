@@ -3,7 +3,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 319,
+        "worldScrollY": 736,
         "zoom": 200,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
@@ -803,8 +803,8 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "a59dcefe-2af1-4c75-bfcd-3fc5765bf90d",
-                                "x": 0,
-                                "y": 0,
+                                "x": 8,
+                                "y": 7,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             }
@@ -885,7 +885,71 @@
             "id": "a59dcefe-2af1-4c75-bfcd-3fc5765bf90d",
             "x": 435,
             "y": 396,
-            "actors": [],
+            "actors": [
+                {
+                    "spriteSheetId": "bdf5b787-afef-49ba-8dbd-4e06558319cf",
+                    "movementType": "faceInteraction",
+                    "direction": "right",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "c5de17e1-217c-4837-a7e7-164562e2ed87",
+                    "x": 7,
+                    "y": 15,
+                    "script": [
+                        {
+                            "id": "2510c423-4e84-4060-8816-79e066315d31",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "i  s e e  w h a t \no t h e r s  c a n\nt."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "5e4a765e-881a-4b02-924f-6290c77c1f88",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "name": "Duck Blob"
+                },
+                {
+                    "spriteSheetId": "9b424a5b-c241-4bcc-bc64-df15dd4ea4c6",
+                    "movementType": "faceInteraction",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "46c5fdb5-c607-4d37-96a8-13b916fc4559",
+                    "x": 15,
+                    "y": 6,
+                    "script": [
+                        {
+                            "id": "b2761b61-cb8f-4c2c-9b24-3e81657475b9",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "my name is roland.\nthis is my space."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "9009f78a-78e8-45c3-b3e8-33f9428918a1",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                },
+                {
+                    "spriteSheetId": "b7998199-ee11-4592-9a01-58c8a95378e4",
+                    "movementType": "faceInteraction",
+                    "direction": "left",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "bf8fc610-9df2-4997-83c0-65832dfb5850",
+                    "x": 2,
+                    "y": 15
+                }
+            ],
             "triggers": [
                 {
                     "trigger": "walk",
@@ -981,7 +1045,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "cave.png",
-            "_v": 1589481140855
+            "_v": 1591915921029
         },
         {
             "id": "b340b9a2-2865-4e05-91c0-148846a693c8",
@@ -991,7 +1055,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "house.png",
-            "_v": 1589481140855
+            "_v": 1591915921029
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -1001,7 +1065,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "logo.png",
-            "_v": 1589481140855
+            "_v": 1591915921029
         },
         {
             "id": "b49ea566-b022-478c-979d-ec3ee255fdc5",
@@ -1011,7 +1075,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "menu.png",
-            "_v": 1589481140855
+            "_v": 1591915921029
         },
         {
             "id": "1b7fa267-d716-40f0-b0d0-f4f966610e07",
@@ -1021,7 +1085,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "outside.png",
-            "_v": 1589481140856
+            "_v": 1591915921029
         },
         {
             "id": "3e1436f0-c2b7-447b-bbd3-55c4d92db4fd",
@@ -1031,7 +1095,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "room.png",
-            "_v": 1589481140857
+            "_v": 1591915921029
         },
         {
             "id": "40fda058-df90-4205-a239-fe77bce4fa79",
@@ -1041,7 +1105,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "stars.png",
-            "_v": 1589481140856
+            "_v": 1591915921029
         },
         {
             "id": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -1051,7 +1115,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "titlescreen.png",
-            "_v": 1589481140855
+            "_v": 1591915921030
         },
         {
             "id": "f3102db4-2273-411d-b33f-4d6f65959c60",
@@ -1061,7 +1125,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "underground.png",
-            "_v": 1589481140856
+            "_v": 1591915921030
         },
         {
             "id": "7ec941cc-617a-4035-bb9b-979f51f66eff",
@@ -1071,7 +1135,7 @@
             "imageWidth": 144,
             "imageHeight": 184,
             "filename": "yard.png",
-            "_v": 1589481191222
+            "_v": 1591915921031
         }
     ],
     "spriteSheets": [
@@ -1081,7 +1145,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "bed.png",
-            "_v": 1589481140856
+            "_v": 1591915921029
         },
         {
             "id": "c5126056-2bc8-436d-bcc1-077180dbe65c",
@@ -1089,7 +1153,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "blob.png",
-            "_v": 1589481140856
+            "_v": 1591915921029
         },
         {
             "id": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
@@ -1097,7 +1161,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "cat.png",
-            "_v": 1589481140856
+            "_v": 1591915921029
         },
         {
             "id": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
@@ -1105,7 +1169,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "checkbox.png",
-            "_v": 1589481140856
+            "_v": 1591915921029
         },
         {
             "id": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
@@ -1113,7 +1177,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "dog.png",
-            "_v": 1589481140856
+            "_v": 1591915921031
         },
         {
             "id": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
@@ -1121,7 +1185,15 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "duck.png",
-            "_v": 1589481140856
+            "_v": 1591915921031
+        },
+        {
+            "id": "bdf5b787-afef-49ba-8dbd-4e06558319cf",
+            "name": "duckblob",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "duckblob.png",
+            "_v": 1591915921030
         },
         {
             "id": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
@@ -1129,7 +1201,7 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "fire.png",
-            "_v": 1589481140856
+            "_v": 1591915921029
         },
         {
             "id": "127d28ef-c839-4cb9-9be6-eb471e80df53",
@@ -1137,7 +1209,15 @@
             "numFrames": 1,
             "type": "static",
             "filename": "fridge.png",
-            "_v": 1589481140856
+            "_v": 1591915921029
+        },
+        {
+            "id": "9b424a5b-c241-4bcc-bc64-df15dd4ea4c6",
+            "name": "friend",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "friend.png",
+            "_v": 1591915921030
         },
         {
             "id": "09ad70c6-3ce5-4b97-9e96-466221418a45",
@@ -1145,7 +1225,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "ice.png",
-            "_v": 1589481140856
+            "_v": 1591915921030
         },
         {
             "id": "dfa75239-299d-41fe-a6cd-9e9438da1938",
@@ -1153,7 +1233,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc001.png",
-            "_v": 1589481140856
+            "_v": 1591915921030
         },
         {
             "id": "40dcd163-9f72-4861-8131-b01eb9baa000",
@@ -1161,7 +1241,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc002.png",
-            "_v": 1589481140856
+            "_v": 1591915921030
         },
         {
             "id": "52ad34df-f245-4b2a-b94c-a82af1002871",
@@ -1169,7 +1249,15 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc003.png",
-            "_v": 1589481140857
+            "_v": 1591915921030
+        },
+        {
+            "id": "b7998199-ee11-4592-9a01-58c8a95378e4",
+            "name": "plant",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "plant.png",
+            "_v": 1591915921030
         },
         {
             "id": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
@@ -1177,7 +1265,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player.png",
-            "_v": 1589481140857
+            "_v": 1591915921030
         },
         {
             "id": "a0442b6a-634f-44da-9962-77938e3ed839",
@@ -1185,7 +1273,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "radio.png",
-            "_v": 1589481140857
+            "_v": 1591915921030
         },
         {
             "id": "03b975b4-8253-4fe1-b86d-81ab1fe3cca3",
@@ -1193,7 +1281,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "record.png",
-            "_v": 1589481140857
+            "_v": 1591915921030
         },
         {
             "id": "3939e8d2-3987-4a22-953e-f1d82134eccf",
@@ -1201,7 +1289,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "rock.png",
-            "_v": 1589481140857
+            "_v": 1591915921030
         },
         {
             "id": "e20ce140-53a5-4b1b-9964-138ba0c86925",
@@ -1209,7 +1297,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "sage.png",
-            "_v": 1589481140857
+            "_v": 1591915921030
         },
         {
             "id": "000a6dde-cb60-436e-b357-30a529daa139",
@@ -1217,7 +1305,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "savepoint.png",
-            "_v": 1589481140864
+            "_v": 1591915921030
         },
         {
             "id": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
@@ -1225,7 +1313,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "signpost.png",
-            "_v": 1589481140884
+            "_v": 1591915921030
         },
         {
             "id": "e9e61bf7-88fd-491d-ae01-4b7f76909108",
@@ -1233,7 +1321,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "torch.png",
-            "_v": 1589481140871
+            "_v": 1591915921030
         }
     ],
     "music": [
@@ -1241,7 +1329,7 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1589481140808
+            "_v": 1591915921010
         }
     ],
     "customEvents": []
