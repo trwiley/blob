@@ -2,12 +2,12 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 26,
-        "worldScrollY": 0,
-        "zoom": 200,
-        "customColorsWhite": "F8C8E0",
-        "customColorsLight": "F880F8",
-        "customColorsDark": "9020A8",
+        "worldScrollX": 3,
+        "worldScrollY": 188,
+        "zoom": 118.39699920266594,
+        "customColorsWhite": "F8E8E8",
+        "customColorsLight": "D8A0F8",
+        "customColorsDark": "D020A8",
         "customColorsBlack": "202850",
         "startMapId": "cb5e225f-e996-4ca8-b068-09a12ec18b75",
         "startX": 0,
@@ -130,14 +130,60 @@
         {
             "id": "4912bee2-387a-472f-ae4f-6679b6149517",
             "name": "Title Screen",
-            "backgroundId": "a8352a58-a045-48f9-8756-0ed9e5175917",
+            "backgroundId": "b8bd3311-25ce-4ab7-b8db-20c86df69b00",
             "x": 79,
             "y": 474,
             "width": 20,
             "height": 18,
             "actors": [],
             "triggers": [],
-            "collisions": [],
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
             "script": [
                 {
                     "id": "ff79b819-b435-4ef8-af20-07302038959f",
@@ -1610,7 +1656,7 @@
             "imageWidth": 240,
             "imageHeight": 144,
             "filename": "cubes-1.png",
-            "_v": 1593290833256
+            "_v": 1593293704662
         },
         {
             "id": "0a0cf7dc-e05b-49b4-bf68-2498ac1cc655",
@@ -1620,7 +1666,7 @@
             "imageWidth": 160,
             "imageHeight": 256,
             "filename": "cubes2.png",
-            "_v": 1593290833256
+            "_v": 1593293704662
         },
         {
             "id": "ab01c024-68ce-464f-be3d-b0d1f25f8df9",
@@ -1630,7 +1676,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "end.png",
-            "_v": 1593290833256
+            "_v": 1593293704662
         },
         {
             "id": "9278b030-3408-4ec0-8730-e5f1158f9127",
@@ -1640,7 +1686,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "finale.png",
-            "_v": 1593290833256
+            "_v": 1593293704662
         },
         {
             "id": "75ec1a7b-2935-4d62-8f53-8ff7c5699eaa",
@@ -1650,7 +1696,7 @@
             "imageWidth": 144,
             "imageHeight": 224,
             "filename": "forest-1.png",
-            "_v": 1593290833257
+            "_v": 1593293704662
         },
         {
             "id": "11b76d26-9f9d-4318-9540-d11431e878fb",
@@ -1660,7 +1706,7 @@
             "imageWidth": 224,
             "imageHeight": 144,
             "filename": "forest-2.png",
-            "_v": 1593290833256
+            "_v": 1593293704662
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -1670,7 +1716,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "logo.png",
-            "_v": 1593290833257
+            "_v": 1593293704662
         },
         {
             "id": "3e1436f0-c2b7-447b-bbd3-55c4d92db4fd",
@@ -1680,17 +1726,17 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "room.png",
-            "_v": 1593290833257
+            "_v": 1593293704662
         },
         {
-            "id": "a8352a58-a045-48f9-8756-0ed9e5175917",
+            "id": "b8bd3311-25ce-4ab7-b8db-20c86df69b00",
             "name": "title",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "title.png",
-            "_v": 1593290833257
+            "_v": 1593294131367
         },
         {
             "id": "7ec941cc-617a-4035-bb9b-979f51f66eff",
@@ -1700,7 +1746,7 @@
             "imageWidth": 144,
             "imageHeight": 184,
             "filename": "yard.png",
-            "_v": 1593290833257
+            "_v": 1593293704662
         }
     ],
     "spriteSheets": [
@@ -1710,7 +1756,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "almond-Sheet.png",
-            "_v": 1593290833257
+            "_v": 1593293704662
         },
         {
             "id": "1312ad9a-87c3-4c00-8960-e6ec62e8bd06",
@@ -1718,7 +1764,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "bean-Sheet.png",
-            "_v": 1593290833257
+            "_v": 1593293704662
         },
         {
             "id": "b0cea55a-cccc-44bc-ae3c-fb4242584056",
@@ -1726,7 +1772,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "beanie-Sheet.png",
-            "_v": 1593290833257
+            "_v": 1593293704662
         },
         {
             "id": "d24b420e-c140-4627-a54b-00520c98dc48",
@@ -1734,7 +1780,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "bed.png",
-            "_v": 1593290833257
+            "_v": 1593293704662
         },
         {
             "id": "c5126056-2bc8-436d-bcc1-077180dbe65c",
@@ -1742,7 +1788,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "blob.png",
-            "_v": 1593290833257
+            "_v": 1593293704662
         },
         {
             "id": "2cb4f4b0-187d-48d3-b23e-61f5c81da287",
@@ -1750,7 +1796,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "bumble-Sheet.png",
-            "_v": 1593290833259
+            "_v": 1593293704662
         },
         {
             "id": "13fe2c95-ccb1-4ebe-a7c3-015a78a87c02",
@@ -1758,7 +1804,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "database-Sheet.png",
-            "_v": 1593290833259
+            "_v": 1593293704662
         },
         {
             "id": "bdf5b787-afef-49ba-8dbd-4e06558319cf",
@@ -1766,7 +1812,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "duckblob.png",
-            "_v": 1593290833259
+            "_v": 1593293704662
         },
         {
             "id": "87ee5221-6443-4b07-bea6-f878bc565815",
@@ -1774,7 +1820,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "eye-Sheet.png",
-            "_v": 1593290833257
+            "_v": 1593293704662
         },
         {
             "id": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
@@ -1782,7 +1828,7 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "fire.png",
-            "_v": 1593290833258
+            "_v": 1593293704662
         },
         {
             "id": "127d28ef-c839-4cb9-9be6-eb471e80df53",
@@ -1790,7 +1836,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "fridge.png",
-            "_v": 1593290833258
+            "_v": 1593293704662
         },
         {
             "id": "9b424a5b-c241-4bcc-bc64-df15dd4ea4c6",
@@ -1798,7 +1844,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "friend.png",
-            "_v": 1593290833258
+            "_v": 1593293704662
         },
         {
             "id": "a57046cd-861d-4753-b100-38770c876664",
@@ -1806,7 +1852,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "globe-Sheet.png",
-            "_v": 1593290833258
+            "_v": 1593293704662
         },
         {
             "id": "838ae394-39a9-4d2b-b37e-5150ea49523c",
@@ -1814,7 +1860,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "h-Sheet.png",
-            "_v": 1593290833258
+            "_v": 1593293704662
         },
         {
             "id": "b7998199-ee11-4592-9a01-58c8a95378e4",
@@ -1822,7 +1868,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "plant.png",
-            "_v": 1593290833258
+            "_v": 1593293704662
         },
         {
             "id": "a0442b6a-634f-44da-9962-77938e3ed839",
@@ -1830,7 +1876,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "radio.png",
-            "_v": 1593290833258
+            "_v": 1593293704662
         },
         {
             "id": "03b975b4-8253-4fe1-b86d-81ab1fe3cca3",
@@ -1838,7 +1884,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "record.png",
-            "_v": 1593290833258
+            "_v": 1593293704662
         },
         {
             "id": "8d0f6165-99f2-40f3-bf67-f94a7db10d62",
@@ -1846,7 +1892,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "tv-Sheet.png",
-            "_v": 1593290833258
+            "_v": 1593293704662
         },
         {
             "id": "ef69009a-f0a3-4ce5-abd7-ed6cc42bc553",
@@ -1854,7 +1900,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "walkboi-Sheet.png",
-            "_v": 1593290833259
+            "_v": 1593293704662
         },
         {
             "id": "47d85e97-075f-45ff-b7b8-449c5916df2d",
@@ -1862,7 +1908,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "zed-Sheet.png",
-            "_v": 1593290833259
+            "_v": 1593293704662
         }
     ],
     "music": [
@@ -1870,7 +1916,7 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1593290833235
+            "_v": 1593293704655
         }
     ],
     "customEvents": []
