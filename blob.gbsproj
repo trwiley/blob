@@ -2,8 +2,8 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 356,
-        "worldScrollY": 971,
+        "worldScrollX": 1711,
+        "worldScrollY": 1901,
         "zoom": 200,
         "customColorsWhite": "F8E8E8",
         "customColorsLight": "D8A0F8",
@@ -1645,8 +1645,8 @@
             "height": 18,
             "collisions": [],
             "id": "2113a846-88b5-47e5-b0e7-11d1d5e1604a",
-            "x": 1190.6544024429736,
-            "y": 1237.9852721220834,
+            "x": 1191.1544024429736,
+            "y": 1237.4852721220834,
             "actors": [],
             "triggers": [],
             "script": [
@@ -1655,6 +1655,14 @@
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
                         "actorId": "player"
+                    }
+                },
+                {
+                    "id": "3c52ec47-e824-4d41-8041-1516bb3e3d4b",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "d5b91895-a2fb-4270-9829-b7d652c72489",
+                        "loop": true
                     }
                 },
                 {
@@ -1730,7 +1738,7 @@
             "imageWidth": 240,
             "imageHeight": 144,
             "filename": "cubes-1.png",
-            "_v": 1599869618665
+            "_v": 1599871764407
         },
         {
             "id": "0a0cf7dc-e05b-49b4-bf68-2498ac1cc655",
@@ -1740,7 +1748,7 @@
             "imageWidth": 160,
             "imageHeight": 256,
             "filename": "cubes2.png",
-            "_v": 1599869618664
+            "_v": 1599871764407
         },
         {
             "id": "ab01c024-68ce-464f-be3d-b0d1f25f8df9",
@@ -1750,7 +1758,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "end.png",
-            "_v": 1599869618665
+            "_v": 1599871764407
         },
         {
             "id": "9278b030-3408-4ec0-8730-e5f1158f9127",
@@ -1760,7 +1768,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "finale.png",
-            "_v": 1599869618665
+            "_v": 1599871764407
         },
         {
             "id": "75ec1a7b-2935-4d62-8f53-8ff7c5699eaa",
@@ -1770,7 +1778,7 @@
             "imageWidth": 144,
             "imageHeight": 224,
             "filename": "forest-1.png",
-            "_v": 1599869618665
+            "_v": 1599871764407
         },
         {
             "id": "11b76d26-9f9d-4318-9540-d11431e878fb",
@@ -1780,7 +1788,7 @@
             "imageWidth": 224,
             "imageHeight": 144,
             "filename": "forest-2.png",
-            "_v": 1599869618665
+            "_v": 1599871764407
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -1790,7 +1798,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "logo.png",
-            "_v": 1599869618665
+            "_v": 1599871764407
         },
         {
             "id": "3e1436f0-c2b7-447b-bbd3-55c4d92db4fd",
@@ -1800,7 +1808,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "room.png",
-            "_v": 1599869618665
+            "_v": 1599871764407
         },
         {
             "id": "b8bd3311-25ce-4ab7-b8db-20c86df69b00",
@@ -1810,7 +1818,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "title.png",
-            "_v": 1599869618665
+            "_v": 1599871764407
         },
         {
             "id": "7ec941cc-617a-4035-bb9b-979f51f66eff",
@@ -1820,7 +1828,7 @@
             "imageWidth": 144,
             "imageHeight": 184,
             "filename": "yard.png",
-            "_v": 1599869618666
+            "_v": 1599871764407
         }
     ],
     "spriteSheets": [
@@ -1830,7 +1838,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "almond-Sheet.png",
-            "_v": 1599869618666
+            "_v": 1599871764407
         },
         {
             "id": "1312ad9a-87c3-4c00-8960-e6ec62e8bd06",
@@ -1838,7 +1846,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "bean-Sheet.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "b0cea55a-cccc-44bc-ae3c-fb4242584056",
@@ -1846,7 +1854,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "beanie-Sheet.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "d24b420e-c140-4627-a54b-00520c98dc48",
@@ -1854,7 +1862,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "bed.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "c5126056-2bc8-436d-bcc1-077180dbe65c",
@@ -1862,7 +1870,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "blob.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "2cb4f4b0-187d-48d3-b23e-61f5c81da287",
@@ -1870,7 +1878,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "bumble-Sheet.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "13fe2c95-ccb1-4ebe-a7c3-015a78a87c02",
@@ -1878,7 +1886,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "database-Sheet.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "bdf5b787-afef-49ba-8dbd-4e06558319cf",
@@ -1886,7 +1894,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "duckblob.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "87ee5221-6443-4b07-bea6-f878bc565815",
@@ -1894,7 +1902,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "eye-Sheet.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
@@ -1902,7 +1910,7 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "fire.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "127d28ef-c839-4cb9-9be6-eb471e80df53",
@@ -1910,7 +1918,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "fridge.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "9b424a5b-c241-4bcc-bc64-df15dd4ea4c6",
@@ -1918,7 +1926,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "friend.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "a57046cd-861d-4753-b100-38770c876664",
@@ -1926,7 +1934,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "globe-Sheet.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "838ae394-39a9-4d2b-b37e-5150ea49523c",
@@ -1934,7 +1942,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "h-Sheet.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "b7998199-ee11-4592-9a01-58c8a95378e4",
@@ -1942,7 +1950,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "plant.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "a0442b6a-634f-44da-9962-77938e3ed839",
@@ -1950,7 +1958,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "radio.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "03b975b4-8253-4fe1-b86d-81ab1fe3cca3",
@@ -1958,7 +1966,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "record.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "8d0f6165-99f2-40f3-bf67-f94a7db10d62",
@@ -1966,7 +1974,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "tv-Sheet.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "ef69009a-f0a3-4ce5-abd7-ed6cc42bc553",
@@ -1974,7 +1982,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "walkboi-Sheet.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         },
         {
             "id": "47d85e97-075f-45ff-b7b8-449c5916df2d",
@@ -1982,7 +1990,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "zed-Sheet.png",
-            "_v": 1599869618666
+            "_v": 1599871764408
         }
     ],
     "music": [
@@ -1990,19 +1998,25 @@
             "id": "abd93f32-7cbb-4faa-8b9b-e6a70471875c",
             "name": "blobfield",
             "filename": "blobfield.mod",
-            "_v": 1599869618658
+            "_v": 1599871764406
         },
         {
             "id": "4e27895b-9765-4b8c-ac93-42f65d48c1b4",
             "name": "darkforest",
             "filename": "darkforest.mod",
-            "_v": 1599869618658
+            "_v": 1599871764406
         },
         {
             "id": "d48e9ced-49e5-4eb1-b0cb-c59a9dde1734",
             "name": "record",
             "filename": "record.mod",
-            "_v": 1599869618658
+            "_v": 1599871764406
+        },
+        {
+            "id": "d5b91895-a2fb-4270-9829-b7d652c72489",
+            "name": "totally not a kano song",
+            "filename": "totally not a kano song.mod",
+            "_v": 1599871816016
         }
     ],
     "customEvents": []
